@@ -1,0 +1,34 @@
+train 1750000 val 250000 features 587 default rate 0.036
+Training until validation scores don't improve for 100 rounds
+[50]	valid_0's auc: 0.720764
+[100]	valid_0's auc: 0.732009
+[150]	valid_0's auc: 0.736752
+[200]	valid_0's auc: 0.738662
+[250]	valid_0's auc: 0.739334
+[300]	valid_0's auc: 0.73988
+[350]	valid_0's auc: 0.740259
+[400]	valid_0's auc: 0.740365
+[450]	valid_0's auc: 0.740208
+[500]	valid_0's auc: 0.74033
+Early stopping, best iteration is:
+[411]	valid_0's auc: 0.740493
+trained in 13.9 min, best iter 411
+VALIDATION ROC-AUC: 0.7405
+top features:
+ last3_enc_col_18_0    36535.0
+last3_enc_col_55_0    29388.0
+last3_enc_col_19_0    20981.0
+enc_col_46_3          19983.0
+enc_col_46_6          19954.0
+last3_enc_col_38_0    18980.0
+enc_col_8_0           16051.0
+last3_enc_col_46_3    15206.0
+last3_enc_col_39_0    14854.0
+enc_col_1_0           12699.0
+last3_enc_col_8_0     12153.0
+last3_enc_col_52_0    10252.0
+last3_enc_col_53_1    10086.0
+enc_col_6_0            9556.0
+enc_col_38_0           9004.0
+submission saved
+EXIT 0
